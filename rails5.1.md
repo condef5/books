@@ -12,3 +12,16 @@ Creamos un proyecto con react usando webpacker de rails con el siguiente comando
 `rails new app webpack=react`
 
 Si estas trabajando con un framework diferente puedes usar las sugientes configuraciones [webpacker](https://github.com/rails/webpacker)
+
+Bien ahora podemos crear nuestros componentes dentro de la carpeta app/javascript
+
+Para porder usar nuestros componentes bastara agregar:
+    <%= javascript_pack_tag 'my_component' %> 
+
+Si ocurre algun error al renderizar nuestros componentes podemos agregar 
+`` 
+document.addEventListener('DOMContentLoaded', () => {
+  ReactDOM.render(...)
+})
+
+``
