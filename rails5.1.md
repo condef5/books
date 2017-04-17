@@ -19,6 +19,7 @@ Para porder usar nuestros componentes bastara agregar:
     <%= javascript_pack_tag 'my_component' %> 
 
 Si ocurre algun error al renderizar nuestros componentes podemos agregar 
+
 ``document.addEventListener(" DOMContentLoaded ", () => {
   ReactDOM.render(...)
 })``
