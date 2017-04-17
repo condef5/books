@@ -23,3 +23,5 @@ Si ocurre algun error al renderizar nuestros componentes podemos agregar
 ``document.addEventListener(" DOMContentLoaded ", () => {
   ReactDOM.render(...)
 })``
+
+Una buena opción para poder renderizar componentes desde de nuestro servidor podría ser [webpacker-react](https://github.com/renchap/webpacker-react) 
