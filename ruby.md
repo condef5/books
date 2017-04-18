@@ -35,12 +35,18 @@ Para poder usar la ultima version `rvm use ruby --latest`
 
 Para instalar rails debemos fijarnos en que versión de ruby estamos y despues podemos instalar rails de forma local.
 Si deseas la version estable más estable 
-``$ gem install rails
+
+``
+$ gem install rails
+
 $ rails -v
 ``
+
 Si deseas la versión beta mas reciente o la versión candidata, puedes instalarlo con --pre
+
 ``
 $ gem install rails --pre
+
 $ rails -v
 ``
 
