@@ -9,7 +9,7 @@
 
 ## Settings 
 ```json
- {
+{
 	"color_scheme": "Packages/Materialize/schemes/Material Oceanic Next.tmTheme",
 	"font_size": 13,
 	"ignored_packages":
@@ -17,13 +17,12 @@
 		"Vintage"
 	],
 	"theme": "Material Facebook.sublime-theme",
-	"line_padding_top": 4,
-
-    // Additional spacing at the bottom of each line, in pixels
-    "line_padding_bottom": 4,
-    "word_wrap": "true",
+	"line_padding_top": 4, 
+    	"line_padding_bottom": 4,
+    	"word_wrap": "true",
 
 }
+
 
 ```
 
