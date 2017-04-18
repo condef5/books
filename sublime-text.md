@@ -1,11 +1,11 @@
 # List packages of Sublime Text
 
-> Emmet
-> Materialize
-> Therm
-> Autofilename
-> SidebarEnchacements
-> BracketHighlight  
+* Emmet
+* Materialize
+* Therm
+* Autofilename
+* SidebarEnchacements
+* BracketHighlight  
 
 ## Settings 
 ```json
