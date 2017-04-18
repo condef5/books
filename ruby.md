@@ -51,7 +51,7 @@ $ rails -v
 
 En algunos casos en linux se vuelve molesto estar usando `source /home/condef5/.rvm/scripts/rvm` asi que puedes configurar tu 
 terminal para automatizar esta tarea, lo primero es ir a `preferencias de perfil > comando` y marcar la opción `Ejecutar el comando como un interprete de conexión`
-![Demo GIF](consola.jpg)
+![Consola](consola.png)
 
 
 ## Testing
