@@ -47,12 +47,21 @@ Si deseas la versión beta mas reciente o la versión candidata, puedes instalar
 $ gem install rails --pre 
 $ rails -v
 ``` 
+## Nota
+
+En algunos casos en linux se vuelve molesto estar usando `source /home/condef5/.rvm/scripts/rvm` asi que puedes configurar tu 
+terminal para automatizar esta tarea, lo primero es ir a `preferencias de perfil > comando` y marcar la opción `Ejecutar el comando como un interprete de conexión`
+![Demo GIF](consola.jpg)
+
+
 ## Testing
 
 Para testear gemas
 `rvm 2.4.1@testing`
 
+## Para aprender más acerca de markdown
 
+* https://github.com/ricval/Documentacion/blob/master/Guias/GitHub/mastering-markdown.md 
 
 
 
