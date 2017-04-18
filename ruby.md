@@ -31,6 +31,24 @@ Para poder establecer una versión por defecto en nuestra terminal `rvm --defaul
 
 Para poder usar la ultima version `rvm use ruby --latest`
 
+## Install rails
+
+Para instalar rails debemos fijarnos en que versión de ruby estamos y despues podemos instalar rails de forma local.
+Si deseas la version estable más estable 
+``$ gem install rails
+$ rails -v
+``
+Si deseas la versión beta mas reciente o la versión candidata, puedes instalarlo con --pre
+``
+$ gem install rails --pre
+$ rails -v
+``
+
+## Testing
+
+Para testear gemas
+`rvm 2.4.1@testing`
+
 
 
 
