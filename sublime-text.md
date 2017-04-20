@@ -10,18 +10,21 @@
 ## Settings 
 ```json
 {
-	"color_scheme": "Packages/Materialize/schemes/Material Oceanic Next.tmTheme",
-	"font_size": 13,
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/Jeffrey Way Theme/schemes/Facebook.tmTheme",
+	"drag_text": false,
+	"font_size": 12,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
+	"line_padding_bottom": 6,
+	"line_padding_top": 6,
+	"overlay_scroll_bars": "enabled",
 	"theme": "Material Facebook.sublime-theme",
-	"line_padding_top": 4, 
-    	"line_padding_bottom": 4,
-    	"word_wrap": "true",
-
+	"word_wrap": "true"
 }
+
 
 
 ```
