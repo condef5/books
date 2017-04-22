@@ -77,5 +77,5 @@ Tan simple como ejecutar
 #### Patrocinado por 
 
 * Facebook => [https://www.facebook.com/drupvon/](https://www.facebook.com/drupvon/) 
-* Youtube => [drupvon](https://www.youtube.com/channel/UCTZN5u1Ad12nGBe2R9ssCmQ)  
+* Youtube =>  [https://www.youtube.com/channel/UCTZN5u1Ad12nGBe2R9ssCmQ(https://www.youtube.com/channel/UCTZN5u1Ad12nGBe2R9ssCmQ)  
 * Twitter => [https://twitter.com/drupvon](https://twitter.com/drupvon)  
