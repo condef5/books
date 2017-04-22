@@ -8,18 +8,26 @@ Para instalar ruby en linux podemos usar gestor de versiones como rvm(ruby versi
 Y si recién estas empezando te preguntarás como me puede ayudar rvm en comparación de la tipica instalación de ruby, imagina que estas trabajando un proyecto con rails 5.0 y ruby 2.4 y viene un cliente y quiere que le hagas unos cuantos cambios a un proyecto antiguo el cual se manejaba con las versión de rails 4.2 y ruby 2.1, para ello tendrías que volver a instalar asegurandote de cambiar el path y evitar que las versiones entren en conflicto, y para añadir la cereza al pastel de limón, imagina que quieres probar la ultima version de rails con webpack xd, para todo esto rvm es tu mejor solución.
 
 ## Rvm
+
 Para instalar rvm en linux necesitarás seguir los siguientes pasos:
+
 1. Dirigeté a la página de (rvm)[https://rvm.io/rvm/install] y agregamos la key publica en nuestra terminal, usaremos gpg que es una aplicacion para generar llaves publicas de encriptación utilizando opengpgp como protocolo, rvm nos pide utilizar una clave publica entonces copiamos y pegamos la llave publica que nos proporciona rvm
 
-`pg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3`
+```sh
+$ pg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+```
 
 2. Instalamos la versión de rvm
 
-`\curl -sSL https://get.rvm.io | bash`
+```sh
+$ \curl -sSL https://get.rvm.io | bash
+```
 
 Una vez finalize este proceso para poder proceder a utilizar rvm tenemos que activarlo usando el siguiente comando
 
-`source /home/condef5/.rvm/scripts/rvm`
+```sh
+$ source /home/condef5/.rvm/scripts/rvm 
+```
 
 nota: cambia "condef5" por el nombre de tu user
 
@@ -27,29 +35,41 @@ nota: cambia "condef5" por el nombre de tu user
 
 Ahora podemos listar las versiones disponibles de ruby con el siguiente comando :
 
-`rvm list known `
+```sh
+$ rvm list known
+```
 
 Y podemos darnos cuenta que existen muchas versiones disponibles, nosotros instalaremos las versión más estable:
 
-`rvm install ruby-head`
+```sh
+$ rvm install ruby-head
+```
 
 4. Establecer una versión en nuestro sistema
 
 Para poder listar las versiones disponibles de ruby podemos utilizar 
 
-`rvm list`
+```sh
+$ rvm list
+```
 
 Para poder usar una versión en especial 
 
-`rvm use 2.4.1`
+```sh
+$ rvm use 2.4.1
+```
 
 Para poder establecer una versión por defecto en nuestra terminal 
 
-`rvm --default use 2.4.1`
+```sh
+$ rvm --default use 2.4.1
+```
 
 Para poder usar la última version que usamos con ruby 
 
-`rvm use ruby --latest`
+```sh
+$ rvm use ruby --latest
+```
 
 
 ## Instalar Rails 
@@ -74,7 +94,9 @@ $ rails -v
 
 Tan simple como ejecutar
 
-`rails new myapp --webpack=react`
+```sh
+$ rails new myapp --webpack=react
+```
 
 #### Patrocinado por 
 
