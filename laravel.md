@@ -50,8 +50,17 @@ Nota: reemplaza el * por tu versión de php si tienes php7.1 cambia el * por el 
     `sudo apt-get install php-xml` 
     
 ### Install valet in linux 
-    
-    ``
 
+   Instalar valet in linux es fácil [valet in linux](https://github.com/cpriego/valet-linux)
+   
+   `composer global require cpriego/valet-linux`
+   
+   Si tienes algun problema con curl puedes solucionarlo asi
+   `sudo apt-get install php7.1-curl`
+   
+   Para iniciar valet puedes usar `valet install` esto es automatico y no require volverlo a instalar
+   
+   
+   
 
 
