@@ -1,5 +1,7 @@
-## Ruby on rails with react
+# Ruby on rails with react
 
+Encuentra la versión en video [aquí][www.youtube.com]
+ 
 ## Instalar ruby
 
 Para instalar ruby en linux podemos usar gestor de versiones como rvm(ruby versión manager) el cual nos permite manejar distintas versiones de ruby en un solo host, multiples entornos de interpretes y gemas.
@@ -77,5 +79,5 @@ Tan simple como ejecutar
 #### Patrocinado por 
 
 * Facebook => [https://www.facebook.com/drupvon/](https://www.facebook.com/drupvon/) 
-* Youtube =>  [https://www.youtube.com/channel/UCTZN5u1Ad12nGBe2R9ssCmQ(https://www.youtube.com/channel/UCTZN5u1Ad12nGBe2R9ssCmQ)  
+* Youtube => https://www.youtube.com/channel/UCTZN5u1Ad12nGBe2R9ssCmQ 
 * Twitter => [https://twitter.com/drupvon](https://twitter.com/drupvon)  
