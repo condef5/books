@@ -47,21 +47,9 @@ Nota: reemplaza el * por tu versión de php si tienes php7.1 cambia el * por el 
     
     Solución :
     
-    `sudo apt-get install php-xml`
+    `sudo apt-get install php-xml` 
     
-*  Problem 3
-    - Installation request for phpunit/phpunit 5.7.19 -> satisfiable by phpunit/phpunit[5.7.19]. 
-    
-    Solución :
-    
-    ``
-
-* Problem 4
-    - laravel/framework v5.4.19 requires ext-mbstring * -> the requested PHP extension mbstring is missing from your system.
-    - laravel/tinker v1.0.0 requires illuminate/console ~5.1 -> satisfiable by laravel/framework[v5.4.19].
-    - Installation request for laravel/tinker v1.0.0 -> satisfiable by laravel/tinker[v1.0.0].
-    
-    Solución :
+### Install valet in linux 
     
     ``
 
