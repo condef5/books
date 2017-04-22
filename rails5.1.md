@@ -24,4 +24,14 @@ Si ocurre algun error al renderizar nuestros componentes podemos agregar
   ReactDOM.render(...)
 })``
 
+### Instalar Prop-types
+
+Facebook a quitado a prop-types de react asi que toca instalarlo por nuestra cuenta.
+
+`yarn add prop-types` 
+
+Agregar `import PropTypes from 'prop-types';` y utilizar `PropTypes.string` para evitar mensages de error en su consola
+
+
+
 Una buena opción para poder renderizar componentes desde de nuestro servidor podría ser [webpacker-react](https://github.com/renchap/webpacker-react) 
