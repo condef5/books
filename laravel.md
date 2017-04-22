@@ -39,7 +39,7 @@ Nota: reemplaza el * por tu versión de php si tienes php7.1 cambia el * por el 
     
     Solución :
     
-    ``
+    `sudo apt-get install php-mbstring php7.1-mbstring php-gettext`
     
 *  Problem 2
     - Installation request for phpunit/php-code-coverage 4.0.8 -> satisfiable by phpunit/php-code-coverage[4.0.8].
@@ -47,7 +47,7 @@ Nota: reemplaza el * por tu versión de php si tienes php7.1 cambia el * por el 
     
     Solución :
     
-    ``
+    `sudo apt-get install php-xml`
     
 *  Problem 3
     - Installation request for phpunit/phpunit 5.7.19 -> satisfiable by phpunit/phpunit[5.7.19]. 
