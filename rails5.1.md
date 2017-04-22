@@ -9,7 +9,7 @@ Actualizar la version de rails a la version 5.1 con el siguiente comando:
 
 Creamos un proyecto con react usando webpacker de rails con el siguiente comando
 
-`rails new app webpack=react`
+`rails new myapp --webpack=react`
 
 Si estas trabajando con un framework diferente puedes usar las sugientes configuraciones [webpacker](https://github.com/rails/webpacker)
 
