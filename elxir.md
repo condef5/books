@@ -8,7 +8,7 @@ Modificar el archivo que apunta al origen donde están ubicados los binarios del
 
 ```sh
 nano /etc/apt/sources.list.d/erlang-solutions.list
-```sh
+```
 
 Run:
 
