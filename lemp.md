@@ -42,6 +42,9 @@ systemctl start mariadb
 systemctl status mariadb
 
 ```
+
+link de apoyo => [aqui](https://www.digitalocean.com/community/tutorials/how-to-reset-your-mysql-or-mariadb-root-password)
+
 Para iniciar sesión `mysql -u root -p`
 
 ### Php 7
