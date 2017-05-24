@@ -11,7 +11,7 @@
 ```json
 {
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/Jeffrey Way Theme/schemes/Facebook.tmTheme",
+	"color_scheme": "Packages/Materialize/schemes/Material Oceanic Next.tmTheme",
 	"drag_text": false,
 	"font_size": 12,
 	"ignored_packages":
@@ -24,6 +24,7 @@
 	"theme": "Material Facebook.sublime-theme",
 	"word_wrap": "true"
 }
+
 
 
 
