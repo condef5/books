@@ -45,6 +45,15 @@ systemctl status mariadb
 
 link de apoyo => [aqui](https://www.digitalocean.com/community/tutorials/how-to-reset-your-mysql-or-mariadb-root-password)
 
+Nota: Si queremos acceder a MaríaDB por consola tenemos que hacerlo con `sudo mysql -u root` si quieres cambiar este comportamiento están sencillo como acceder por consola con el anterior comando y escribir esto:
+```sh
+mysql>  use mysql; 
+mysql>  update user set plugin='' where User='root'; 
+mysql>  flush privileges; 
+mysql>  \q 
+```
+Ahora puedes acceder a MaríaDB con `mysql -u root`
+
 Para iniciar sesión `mysql -u root -p`
 
 ### Php 7
