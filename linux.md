@@ -1,5 +1,6 @@
 # List of programs for install in linux
 
+
 ### Docky
 
 ```sh
@@ -35,6 +36,14 @@ sudo apt-get update && sudo apt-get install yarn
 yarn global add create-react-app
 
 ```
+### Postgresql
+
+```sh
+
+$ sudo apt-get update
+$ sudo apt-get install postgresql postgresql-contrib
+
+```
 
 ### Simple screen recorder
 
@@ -54,7 +63,7 @@ sudo apt-get install macbuntu-os-ithemes-lts-v7
 sudo apt-get install macbuntu-os-lightdm-lts-v7
 ```
 
-Instalar docky
+### Instalar docky
 
 ```sh
 sudo add-apt-repository ppa:docky-core/ppa
