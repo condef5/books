@@ -44,3 +44,21 @@ sudo apt-get update
 sudo apt-get install simplescreenrecorder
 ```
 
+### Theme MacUbuntu
+
+```sh
+sudo add-apt-repository ppa:noobslab/macbuntu
+sudo apt-get update
+sudo apt-get install macbuntu-os-icons-lts-v7
+sudo apt-get install macbuntu-os-ithemes-lts-v7
+sudo apt-get install macbuntu-os-lightdm-lts-v7
+```
+
+Instalar docky
+
+```sh
+sudo add-apt-repository ppa:docky-core/ppa
+sudo apt-get update
+sudo apt-get install docky
+```
+
