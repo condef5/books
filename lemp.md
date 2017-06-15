@@ -56,7 +56,7 @@ Ahora puedes acceder a MaríaDB con `mysql -u root`
 
 Para iniciar sesión `mysql -u root -p`
 
-### Php 7
+### Php 7.1
 
 Para instalar php7.1 en linux
 
@@ -67,6 +67,14 @@ sudo apt-get install php7.1
 
 ```
 Para configurar php and nginx visite este [link](https://www.digitalocean.com/community/tutorials/como-instalar-linux-nginx-mysql-php-lemp-stack-in-ubuntu-16-04-es)
+
+Nota => para la versión php7.1 vamos a tener que instalar estos paquetes
+```sh
+sudo apt-get install php7.1-fpm
+sudo apt-get install php-fpm 
+
+```
+
 ### Composer
 
 ```sh
