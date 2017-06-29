@@ -37,6 +37,17 @@ Extraer la carpeta android-studio y moverla al directorio opt
 $ sudo mv androi-studio /opt/
 ```
 
+Agregar esto al path
+
+```sh
+$ nano ~/bashrc
+```
+
+```sh
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/tools
+```
+
 ### Notes
 
 For more info visit this [link](https://www.youtube.com/watch?v=y7aPKTOnUUQ&list=PL2g-DF7-WOZ4pzupMZfBJiDEh_OLRvBRy&index=4)
