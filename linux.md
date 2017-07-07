@@ -1,7 +1,23 @@
 # List of programs for install in linux
 
+### Instalar fish
 
-### Docky
+```sh
+sudo apt-get update
+sudo apt-get install fish
+
+```
+### Instalar oh my fish
+
+```sh
+sudo apt-get update
+curl -L https://github.com/oh-my-fish/oh-my-fish/raw/master/bin/install > install
+fish install
+```
+Note: set fish as default shell `chsh -s /usr/bin/fish `
+
+
+### Icons 
 
 ```sh
 $ sudo apt-get update
@@ -70,5 +86,6 @@ $ sudo apt-get install macbuntu-os-lightdm-lts-v7
 sudo add-apt-repository ppa:docky-core/ppa
 $ sudo apt-get update
 $ sudo apt-get install docky
+
 ```
 
