@@ -25,12 +25,12 @@ sudo ufw status
 ## MariaDB
 
 ```sh
-apt-get update
-apt-get upgrade  
+sudo apt-get update
+sudo apt-get upgrade  
 
 sudo apt-get install software-properties-common
 sudo apt-key adv --recv-keys --keyserver hkp://keyserver.ubuntu.com:80 0xF1656F24C74CD1D8
-sudo add-apt-repository 'deb [arch=amd64,i386,ppc64el] http://ftp.utexas.edu/mariadb/repo/10.1/ubuntu xenial main
+sudo add-apt-repository 'deb [arch=amd64,i386,ppc64el] http://ftp.utexas.edu/mariadb/repo/10.1/ubuntu xenial main'
 
 apt-get install mariadb-server
 
@@ -38,8 +38,8 @@ apt-get install mariadb-server
 Para comprobar si se instalo correctamente
 
 ```sh
-systemctl start mariadb
-systemctl status mariadb
+sudo systemctl start mariadb
+sudo systemctl status mariadb
 
 ```
 
