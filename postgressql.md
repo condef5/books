@@ -9,7 +9,7 @@ sudo apt-get install build-essential libssl-dev libffi-dev libgmp3-dev virtualen
 
 Ahora crearemos una entorno virtual con python, esto lo hacemos para evitar conflictos entre versiones de nuestros 
 paquetes o dependencias al momento de trabajar con python, para más información acerca de los entornos virtuales 
-[aquí](http://docs.python.org.ar/tutorial/3/venv.html).
+(aquí)[https://docs.python.org.ar/tutorial/3/venv.html].
 
 ```sh
 cd /opt/
@@ -39,7 +39,7 @@ touch config_local.py
 Para configurar PGAdmin 4 para que se ejecute en modo de usuario único, agreguamos la siguiente linea:
 
 ```sh
-echo "SERVER_MODE = False" >> lib/python2.7/site-packages/pgadmin4/config_local.py
+echo "SERVER_MODE = False" >> config_local.py
 ```
 
 ### Ejecutar PGADMIN 4
@@ -47,9 +47,10 @@ echo "SERVER_MODE = False" >> lib/python2.7/site-packages/pgadmin4/config_local.
 Ejecutamos el siguiente comando
 
 ```sh
+cd /opt/enviromentpy/pgadmin4
 python lib/python2.7/site-packages/pgadmin4/pgAdmin4.py
 ```
-En la consola nos dice que debemos ir a la ruta [http://localhost:5050](http://localhost:5050 ).
+En la consola nos dice que debemos ir a la ruta [http://localhost:5050](http://localhost:5050).
 
 ### Agregar una conexión
 
