@@ -5,7 +5,7 @@ Primero necesitamos instalar python, pip y algunos otros packages.
 ```sh
 sudo apt-get install build-essential libssl-dev libffi-dev libgmp3-dev virtualenv python-pip libpq-dev python-dev
 ```
-### Crear un entorno virtual
+### 1. Crear un entorno virtual
 
 Ahora crearemos una entorno virtual con python, esto lo hacemos para evitar conflictos entre versiones de nuestros 
 paquetes o dependencias al momento de trabajar con python, para más información acerca de los entornos virtuales 
@@ -20,14 +20,14 @@ cd pgadmin4
 source bin/activate
 ```
 
-### Descargar e instalar PGADMIN IV
+### 2. Descargar e instalar PGADMIN IV
 
 ```sh
 wget https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v1.3/pip/pgadmin4-1.3-py2.py3-none-any.whl
 pip install pgadmin4-1.3-py2.py3-none-any.whl 
 ```
 
-### Crear archivo de configuración
+### 3. Crear archivo de configuración
 
 Ahora crearemos un archivo local de configuración para PGADMIN IV
 
@@ -42,7 +42,7 @@ Para configurar PGAdmin 4 para que se ejecute en modo de usuario único, agregua
 echo "SERVER_MODE = False" >> config_local.py
 ```
 
-### Ejecutar PGADMIN 4
+### 4. Ejecutar PGADMIN 4
 
 Ejecutamos el siguiente comando
 
@@ -52,7 +52,7 @@ python lib/python2.7/site-packages/pgadmin4/pgAdmin4.py
 ```
 En la consola nos dice que debemos ir a la ruta [http://localhost:5050](http://localhost:5050).
 
-### Agregar una conexión
+### 5. Agregar una conexión
 
 Ahora simplemente le damos click en Server -> Create -> Server 
 
