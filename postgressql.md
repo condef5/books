@@ -60,7 +60,7 @@ En la pestaña general agregamos un nombre y una descripción. En la otra pesta�
 como en la siguiente imagen:
 
 <p align="center">
-  [Consola](images/pgadmin.png)
+  ![Consola](images/pgadmin.png)
 </p>
 
 
