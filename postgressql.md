@@ -14,9 +14,9 @@ paquetes o dependencias al momento de trabajar con python, más acerca de los en
 
 ```sh
 cd /opt/
-mkdir enviromentpy
+sudo mkdir enviromentpy
 cd enviromentpy/
-virtualenv pgadmin4
+sudo virtualenv pgadmin4
 cd pgadmin4
 source bin/activate
 ```
@@ -34,13 +34,13 @@ Crearemos un archivo local de configuración para PGADMIN IV
 
 ```sh
 cd lib/python2.7/site-packages/pgadmin4
-touch config_local.py
+sudo touch config_local.py
 ```
 
 Para configurar PGAdmin 4 para que se ejecute en modo de usuario único, agreguamos la siguiente linea:
 
 ```sh
-echo "SERVER_MODE = False" >> config_local.py
+sudo echo "SERVER_MODE = False" >> config_local.py
 ```
 
 ## 4. Ejecutar PGADMIN 4
