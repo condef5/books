@@ -59,9 +59,9 @@ Ahora simplemente le damos click en Server -> Create -> Server
 En la pestaña general agregamos un nombre y una descripción. En la otra pestaña conexión agregamos en host:localhost y agregamos nuestro user y password,
 como en la siguiente imagen:
 
-<p align="center">
-  ![Consola](images/pgadmin.png)
-</p>
+
+                                            ![Consola](images/pgadmin.png)
+
 
 
 
