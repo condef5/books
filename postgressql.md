@@ -16,6 +16,7 @@ paquetes o dependencias al momento de trabajar con python, más acerca de los en
 cd /opt/
 sudo mkdir enviromentpy
 cd enviromentpy/
+sudo chmod -R 777 *
 sudo virtualenv pgadmin4
 cd pgadmin4
 source bin/activate
@@ -24,7 +25,7 @@ source bin/activate
 ## 2. Descargar e instalar PGADMIN IV
 
 ```sh
-sudo wget https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v1.3/pip/pgadmin4-1.3-py2.py3-none-any.whl
+wget https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v1.3/pip/pgadmin4-1.3-py2.py3-none-any.whl
 pip install pgadmin4-1.3-py2.py3-none-any.whl 
 ```
 
@@ -34,13 +35,13 @@ Crearemos un archivo local de configuración para PGADMIN IV
 
 ```sh
 cd lib/python2.7/site-packages/pgadmin4
-sudo touch config_local.py
+touch config_local.py
 ```
 
 Para configurar PGAdmin 4 para que se ejecute en modo de usuario único, agreguamos la siguiente linea:
 
 ```sh
-sudo echo "SERVER_MODE = False" >> config_local.py
+echo "SERVER_MODE = False" >> config_local.py
 ```
 
 ## 4. Ejecutar PGADMIN 4
