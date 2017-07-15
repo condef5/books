@@ -17,7 +17,7 @@ cd /opt/
 sudo mkdir enviromentpy
 cd enviromentpy/
 sudo chmod -R 777 *
-sudo virtualenv pgadmin4
+virtualenv pgadmin4
 cd pgadmin4
 source bin/activate
 ```
