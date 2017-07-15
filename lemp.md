@@ -4,7 +4,7 @@ LEMP es un grupo de software que se puede utilizar para servir páginas web din�
 que describe un sistema operativo Linux, con un servidor web Nginx.
 Los datos del backend se almacenan en la base de datos MySQL y el procesamiento dinámico es manejado por PHP.
 
-## Nginx
+## Intalar Nginx (servidor web)
 ```sh
 sudo apt-get update
 sudo apt-get install nginx
@@ -22,23 +22,23 @@ Puede verificar el cambio escribiendo:
 ```sh
 sudo ufw status 
 ```
-## MariaDB
+## Instalar MariaDB(mysql)
 
 ```sh
-sudo apt-get update
-sudo apt-get upgrade  
-
 sudo apt-get install software-properties-common
 sudo apt-key adv --recv-keys --keyserver hkp://keyserver.ubuntu.com:80 0xF1656F24C74CD1D8
 sudo add-apt-repository 'deb [arch=amd64,i386,ppc64el] http://ftp.utexas.edu/mariadb/repo/10.1/ubuntu xenial main'
 
+sudo apt-get update 
 apt-get install mariadb-server
 
 ```
-Para comprobar si se instalo correctamente
+Cuando finalice la instalación de los paqueres de MaríaDB, inicie el demonio(daemon) del servidor de la base de datos
+por tiempo medio y permita que se inicie automaticamente en el siguiente arranque de la siguiente manera: 
 
-```sh
+```sh 
 sudo systemctl start mariadb
+sudo systemctl enable mariadb
 sudo systemctl status mariadb
 
 ```
