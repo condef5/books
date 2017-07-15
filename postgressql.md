@@ -24,8 +24,8 @@ source bin/activate
 ## 2. Descargar e instalar PGADMIN IV
 
 ```sh
-wget https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v1.3/pip/pgadmin4-1.3-py2.py3-none-any.whl
-pip install pgadmin4-1.3-py2.py3-none-any.whl 
+sudo wget https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v1.3/pip/pgadmin4-1.3-py2.py3-none-any.whl
+sudo pip install pgadmin4-1.3-py2.py3-none-any.whl 
 ```
 
 ## 3. Crear archivo de configuración
