@@ -62,9 +62,24 @@ como en la siguiente imagen:
 
 ![Consola](images/pgadmin.png)
 
-Nota: Si tienes problemas al agregar un server con las credenciales de autentificación, puedes hacer esto : 
+Nota: Si tienes problemas al agregar un server con las credenciales de autentificación, puedes hacer esto: 
 
 ```sh
 sudo -u postgres psql
 ALTER USER "postgres" WITH PASSWORD 'postgres';
 ```
+Nota2: Puedes automatizar los pasos para iniciar el PGADMIN de la sgt manera:
+
+* Crea un archivo en el home de tú sistema : `cd ~ && touch pgadmin.sh`
+* Edita el archivo : `nano pgadmin.sh`
+* Agrega el siguiente codigo: 
+```sh
+#!/bin/bash
+source /opt/pgadmin4/bin/activate
+python /opt/pgadmin4/lib/python2.7/site-packages/pgadmin4/pgAdmin4.py
+```
+  Presiona ctrl + x y guarda los cambios.
+  
+* Agrega el permiso de ejecución: `sudo chmod +x ~/pgadmin.sh`
+* Para iniciar PGADMIN4 bastará con ejecutar: `cd ~ && ./pgadmin.sh` 
+
