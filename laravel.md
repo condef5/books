@@ -1,5 +1,4 @@
-### Install laravel in linux
-
+## Instalar laravel en linux
 
 ```sh
 composer global require "laravel/installer"
@@ -25,6 +24,11 @@ Nota: Si el comando anterior te da error, significa que composer se encuentra en
 
 `export PATH=~/.composer/vendor/bin:$PATH`
 
+Ahora ya estás ready para comenzar a desarrollar con laravel, crea tu primer proyecto:
+
+```sh
+laravel new myapp
+```
 
 ### Solucionando los problemas con laravel new
 
@@ -53,9 +57,11 @@ Nota: reemplaza el * por tu versión de php si tienes php7.1 cambia el * por el 
     
     `sudo apt-get install php-xml` 
     
-### Install valet in linux 
+### Instalar valet in linux 
 
-   Instalar valet in linux es fácil [valet in linux](https://github.com/cpriego/valet-linux)
+Valet es muy parecido a laragon en windows para la creación de host virtuales y nos evita estár ejecutando el  archimegaconocido `php artisan serve`. 
+
+Instalar valet in linux es fácil [valet in linux](https://github.com/cpriego/valet-linux)
    
    `composer global require cpriego/valet-linux`
    
