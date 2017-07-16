@@ -9,11 +9,13 @@ Si te muestra un error puede que se deba a que composer no se haya agregado al p
 
 `nano ~/.bashrc`
 
-Y agregando la siguieten linea :
+Copia esta linea al principio:
  
 `export PATH=~/.config/composer/vendor/bin:$PATH`
 
-Puedes reiniciar la terminal o escribir :
+Presiona `ctrl + x ` y guarda los cambios con la tecla `y`
+
+Puedes reiniciar la terminal o escribir:
 
 `source ~/.bashrc `
 
