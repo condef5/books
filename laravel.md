@@ -5,21 +5,23 @@
 composer global require "laravel/installer"
 ```
 
-Si te muestra un error puede que se deba a que composer no se haya agregado al path, puedes corregirlo abriendo 
+Si te muestra un error puede que se deba a que composer no se haya agregado al path de tu S.O., puedes corregirlo abriendo 
 
 `nano ~/.bashrc`
 
 Y agregando la siguieten linea :
-
-`export PATH=~/.composer/vendor/bin:$PATH`
+ 
+`export PATH=~/.config/composer/vendor/bin:$PATH`
 
 Puedes reiniciar la terminal o escribir :
 
 `source ~/.bashrc `
 
-Nota: en algunos casos composer se encuentra en la carpeta `~/.config/composer` en vez de `~/.composer` asi que puedes agregar esta linea al path en vez de la de arriba :
+Ahora escribe en la terminal: `laravel --version`
 
-`export PATH=~/.config/composer/vendor/bin:$PATH`
+Nota: Si el comando anterior te da error, significa que composer se encuentra en la carpeta `~/.composer` en vez de `~/.config/composer` asi que puedes agregar esta linea al path en vez de la de arriba :
+
+`export PATH=~/.composer/vendor/bin:$PATH`
 
 
 ### Solucionando los problemas con laravel new
