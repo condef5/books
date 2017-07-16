@@ -64,12 +64,16 @@ Nota: reemplaza el * por tu versión de php si tienes php7.1 cambia el * por el 
 
 Valet es muy parecido a laragon en windows para la creación de host virtuales y nos evita estár ejecutando el  archimegaconocido `php artisan serve`. 
 
-Instalar valet in linux es fácil [valet in linux](https://github.com/cpriego/valet-linux)
+Instalar valet in linux es fácil [valet in linux](https://github.com/cpriego/valet-linux).
+
+Primero es necesario tener curl, para evitar futuros errores:
    
-   `composer global require cpriego/valet-linux`
-   
-   Si tienes algun problema con curl puedes solucionarlo asi
    `sudo apt-get install php7.1-curl`
+     
+Ahora procedemos a instalar valet con el siguiente comando:
+ 
+   `composer global require cpriego/valet-linux`
+
    
    Para iniciar valet puedes usar `valet install` esto es automatico y no require volverlo a instalar
    
