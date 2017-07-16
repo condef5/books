@@ -28,7 +28,10 @@ Ahora ya estás ready para comenzar a desarrollar con laravel, crea tu primer pr
 
 ```sh
 laravel new myapp
+cd myapp
+php artisan serve
 ```
+Si no tienes ningun error, tu aplicación estará corriendo en http://localhost:8000/
 
 ### Solucionando los problemas con laravel new
 
