@@ -68,7 +68,8 @@ sudo apt-get install php7.1
 ```
 Para configurar php and nginx visite este [link](https://www.digitalocean.com/community/tutorials/como-instalar-linux-nginx-mysql-php-lemp-stack-in-ubuntu-16-04-es)
 
-Nota => para la versión php7.1 vamos a tener que instalar estos paquetes
+Nota => Para la versión php7.1 vamos a tener que instalar estos paquetes
+
 ```sh
 sudo apt-get install php7.1-fpm
 sudo apt-get install php-fpm 
