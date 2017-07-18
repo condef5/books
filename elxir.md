@@ -7,8 +7,9 @@ wget https://packages.erlang-solutions.com/erlang-solutions_1.0_all.deb && sudo 
 Modificar el archivo que apunta al origen donde están ubicados los binarios del lenguaje.
 
 ```sh
-nano /etc/apt/sources.list.d/erlang-solutions.list
+sudo nano /etc/apt/sources.list.d/erlang-solutions.list
 ```
+Cambiar la palabra squeeze por wheezy `ctrl + x` y aceptamos con la tecla `y` 
 
 Run:
 
