@@ -74,6 +74,7 @@ Nota => Para la versión php7.1 vamos a tener que instalar estos paquetes
 ```sh
 sudo apt-get install php7.1-fpm
 sudo apt-get install php-fpm 
+sudo apt-get install php7.1-mysql
 
 ```
 
