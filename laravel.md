@@ -3,8 +3,13 @@
 ```sh
 composer global require "laravel/installer"
 ```
+Bien ahora puedes comprobar si laravel se instalo correctamente :
 
-Si te muestra un error puede que se deba a que composer no se haya agregado al path de tu S.O., puedes corregirlo abriendo 
+```sh
+laravel --version
+```
+
+Si te muestra un error o no se reconoce el comando puede que se deba a que composer no se haya agregado al path de tu S.O., puedes corregirlo abriendo 
 
 `nano ~/.bashrc`
 
