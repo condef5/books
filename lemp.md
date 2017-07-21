@@ -30,7 +30,7 @@ sudo apt-key adv --recv-keys --keyserver hkp://keyserver.ubuntu.com:80 0xF1656F2
 sudo add-apt-repository 'deb [arch=amd64,i386,ppc64el] http://ftp.utexas.edu/mariadb/repo/10.1/ubuntu xenial main'
 
 sudo apt-get update 
-apt-get install mariadb-server
+sudo apt-get install mariadb-server
 
 ```
 Cuando finalice la instalación de los paqueres de MaríaDB, inicie el demonio(daemon) del servidor de la base de datos
