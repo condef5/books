@@ -55,6 +55,7 @@ mysql>  \q
 ```
 Ahora puedes acceder a MaríaDB con `mysql -u root`
 
+Nota: Otra forma de evitar el uso del sudo es ejecutar `sudo mysql_secure_installation`.
 
 ### Php 7.1
 
