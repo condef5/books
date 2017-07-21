@@ -76,8 +76,8 @@ Nota2: Puedes automatizar los pasos para iniciar el PGADMIN de la sgt manera:
 * Agrega el siguiente codigo: 
 ```sh
 #!/bin/bash
-source /opt/pgadmin4/bin/activate
-python /opt/pgadmin4/lib/python2.7/site-packages/pgadmin4/pgAdmin4.py
+source /opt/enviromentpy/pgadmin4/bin/activate
+python /opt/enviromentpy/pgadmin4/lib/python2.7/site-packages/pgadmin4/pgAdmin4.py
 ```
   Presiona ctrl + x y guarda los cambios.
   
