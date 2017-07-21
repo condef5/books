@@ -10,7 +10,7 @@ sudo apt-get install build-essential libssl-dev libffi-dev libgmp3-dev virtualen
 
 Crearemos un entorno virtual con python, esto lo hacemos para evitar conflictos entre versiones de nuestros 
 paquetes o dependencias al momento de trabajar con python, más acerca de los entornos virtuales 
-(aquí)[https://docs.python.org.ar/tutorial/3/venv.html].
+(aquí)[https://docs.python.org.ar/tutorial/3/venv.html] .
 
 ```sh
 cd /opt/
