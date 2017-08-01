@@ -84,3 +84,7 @@ python /opt/enviromentpy/pgadmin4/lib/python2.7/site-packages/pgadmin4/pgAdmin4.
 * Agrega el permiso de ejecución: `sudo chmod +x ~/pgadmin.sh`
 * Para iniciar PGADMIN4 bastará con ejecutar: `cd ~ && ./pgadmin.sh` 
 
+Nota3: Para usar php y postgresql, se debe instalar la extenxión 
+```sh
+sudo apt-get install php7.1-pgsql
+```
