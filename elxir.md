@@ -28,6 +28,15 @@ Install Elixir:
 ```sh
 sudo apt-get install elixir
 ```
+## Update Elixir 
+
+```sh
+  git clone https://github.com/elixir-lang/elixir.git
+  cd elixir/
+  git checkout v1.4
+  make clean test
+  sudo make install
+```
 
 ## Install Phoenix Framework
 
@@ -41,5 +50,6 @@ $ cd <my_new_app_name>
 $ mix ecto.create                     
 $ mix phoenix.server   
 ```
+
 
 
