@@ -50,6 +50,6 @@ $ cd <my_new_app_name>
 $ mix ecto.create                     
 $ mix phoenix.server   
 ```
-
+note: Is necesary install Inofity-tools: `sudo apt-get install inotify-tools`
 
 
