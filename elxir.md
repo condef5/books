@@ -29,5 +29,17 @@ Install Elixir:
 sudo apt-get install elixir
 ```
 
+## Install Phoenix Framework
+
+```sh
+  mix archive.install https://github.com/phoenixframework/archives/raw/master/phoenix_new.ez
+```
+Crear un proyecto
+
+```sh
+$ cd <my_new_app_name>
+$ mix ecto.create                     
+$ mix phoenix.server   
+```
 
 
