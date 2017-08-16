@@ -6,7 +6,7 @@
 rails g migration CreateProducts name:string part_number:string
 ```
 
-*Agregar columnas a un modelo 
+* Agregar columnas a un modelo 
 
 ```sh
 rails g migration AddPartNumberToProducts part_number:string:index
