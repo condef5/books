@@ -1,6 +1,6 @@
 ## Borrar
 
-* Detener todos los contenedores
+Detener todos los contenedores
 ```sh
 $ docker stop $(docker ps -a -q)
 ```
