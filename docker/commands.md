@@ -1,4 +1,4 @@
-## Borrar
+## Comandos
 
 Detener todos los contenedores
 ```sh
@@ -15,4 +15,8 @@ Borrar todas las imagenes
 $ docker rmi $(docker images -q)
 ```
 
- 
+Borra todos los contenedores y actualiza la cache
+```sh
+docker system prune -a 
+
+```
