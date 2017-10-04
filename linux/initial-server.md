@@ -8,7 +8,7 @@ Asumimos que ya generaste tu clave ssh, Imprimimos en nuestra maquina local la l
 ```sh
 cat ~/.ssh/id_rsa.pub
 ```
-Y la copiamos en nuestro clipboad.
+Y la copiamos en nuestro clipboard.
 
 En nuestro server:
 ```sh
@@ -19,4 +19,5 @@ nano ~/.ssh/authorized_keys
 chmod 600 ~/.ssh/authorized_keys
 exit
 ```
+Ahora podemos acceder a nuestro servidor de la siguiente manera : `ssh sammy@${server_ip}`
 
