@@ -19,13 +19,13 @@ Note: set fish as default shell `chsh -s /usr/bin/fish `
 Usar por fish por defecto:
 
 ```sh
-chsh -s (which bash)
+chsh -s `which fish`
 ```
 
 Volver a bash:
 
 ```sh
-chsh -s `which fish`
+chsh -s (which bash)
 ```
 
 ### Icons 
