@@ -16,6 +16,17 @@ fish install
 ```
 Note: set fish as default shell `chsh -s /usr/bin/fish `
 
+Usar por fish por defecto:
+
+```sh
+chsh -s (which bash)
+```
+
+Volver a bash:
+
+```sh
+chsh -s `which fish`
+```
 
 ### Icons 
 
